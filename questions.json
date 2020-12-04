@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Minä vuonna kahden tähden jaloviinan rajoitettu erä tuli markkinoille?",
+        "choice1": "2012",
+        "choice2": "2008",
+        "choice3": "1995",
+        "choice4": "2001",
+        "answer": 1
+    },
+    {
+        "question":
+            "Kuinka paljon konjakkia on yhden tähden jaloviinassa?",
+        "choice1": "puolet",
+        "choice2": "kolmannes",
+        "choice3": "neljännes",
+        "choice4": "viidennes",
+        "answer": 3
+    },
+    {
+        "question": "Minkä nimisessä Petri Nygårdin kappaleessa jaloviina esiintyy?",
+        "choice1": "Syntyny rellestää",
+        "choice2": "Leikatun konjakin salaisuus",
+        "choice3": "Nuku vaan",
+        "choice4": "Selvä päivä",
+        "answer": 4
+    }
+]
