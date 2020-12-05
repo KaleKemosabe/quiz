@@ -1,10 +1,10 @@
 [
     {
-        "question": "Minä vuonna kahden tähden jaloviinan rajoitettu erä tuli markkinoille?",
-        "choice1": "2012",
-        "choice2": "2008",
-        "choice3": "1995",
-        "choice4": "2001",
+        "question": "Millä valtiolla on eniten saaria maailmassa?",
+        "choice1": "Ruotsilla",
+        "choice2": "Norjalla",
+        "choice3": "Indonesialla",
+        "choice4": "Kanadalla",
         "answer": 1
     },
     {
@@ -17,11 +17,91 @@
         "answer": 3
     },
     {
-        "question": "Minkä nimisessä Petri Nygårdin kappaleessa jaloviina esiintyy?",
-        "choice1": "Syntyny rellestää",
-        "choice2": "Leikatun konjakin salaisuus",
-        "choice3": "Nuku vaan",
-        "choice4": "Selvä päivä",
+        "question": "Kuka näyttelijä esitti Juicea 2018 elokuvassa nimeltään Juice?",
+        "choice1": "Timo Lavikainen",
+        "choice2": "Pekka Strang",
+        "choice3": "Eero Milonoff",
+        "choice4": "Riku Nieminen",
         "answer": 4
+    },
+    {
+        "question": "Missä kaupungissa Eppu Normaali levytti ensimmäisen levynsä (Aknepop, 1978)?",
+        "choice1": "Ylöjärvellä",
+        "choice2": "Lahdessa",
+        "choice3": "Tampereella",
+        "choice4": "Heinolassa",
+        "answer": 2
+    },
+    {
+        "question": "Jääkiekkoilija Phil Kessel tunnetaan mm. siitä, että hän kuljetti Stanley Cup -pokaalin mukanaan golf-kentälle. Mikä ruoka täytti kiekkoilijan pokaalin vuoden 2017 mestaruuden jälkeen?",
+        "choice1": "Burgerit",
+        "choice2": "Hot dogit",
+        "choice3": "Poutine",
+        "choice4": "Ranskalaiset perunat",
+        "answer": 2
+    },
+    {
+        "question": "Suomi valittiin vuonna 2020 maailman onnellisimmaksi maaksi jo kolmatta kertaa. Mikä maa oli vähiten onnellinen samana vuonna?",
+        "choice1": "Afghanistan",
+        "choice2": "Intia",
+        "choice3": "Ruanda",
+        "choice4": "Jemen",
+        "answer": 1
+    },
+    {
+        "question": "Kaksoset syntyvät yleensä melko samanaikaisesti, mutta mikä on historiassa pisin aikaväli kaksosten välisessä synnytyksessä?",
+        "choice1": "7 tuntia",
+        "choice2": "47 tuntia",
+        "choice3": "47 päivää",
+        "choice4": "87 päivää",
+        "answer": 4
+    },
+    {
+        "question": "Kuinka monta raitaa on Yhdysvaltojen lipussa?",
+        "choice1": "9",
+        "choice2": "11",
+        "choice3": "13",
+        "choice4": "15",
+        "answer": 3
+    },
+    {
+        "question": "Millä seuraavista tunnetuista bändeistä oli naisrumpali vuosina 2000-luvun alussa?",
+        "choice1": "Guns N' Roses",
+        "choice2": "Mötley Crue",
+        "choice3": "Queen",
+        "choice4": "Iron Maiden",
+        "answer": 2
+    },
+    {
+        "question": "Minkä kuukauden 13. päivä Suomessa vietetään jokavuotista epäonnistumisen päivää?",
+        "choice1": "Helmikuu",
+        "choice2": "Maaliskuu",
+        "choice3": "Lokakuu",
+        "choice4": "Marraskuu",
+        "answer": 3
+    },
+    {
+        "question": "Kuinka korkealle kohoaa Euroopan korkein vuori?",
+        "choice1": "3842m",
+        "choice2": "4811m",
+        "choice3": "5642m",
+        "choice4": "5980m",
+        "answer": 3
+    },
+    {
+        "question": "Mikä on urheiluvaateyhtiö Niken alkuperäinen nimi?",
+        "choice1": "Blue Ribbon Sports",
+        "choice2": "Little Hope Sports",
+        "choice3": "The Athlete's Foot",
+        "choice4": "Wing Sports Clothing",
+        "answer": 1
+    },
+    {
+        "question": "Minä vuonna Netflix perustettiin?",
+        "choice1": "2010",
+        "choice2": "1997",
+        "choice3": "2009",
+        "choice4": "1991",
+        "answer": 2
     }
 ]
