@@ -1,22 +1,39 @@
+:root {
+  --main-light-bg: #ceeced;
+  --secondary-light-bg: #e9e9e9;
+  --main-dark: #383a39;
+  --main-bright-green: #99c259;
+  --main-green: #6cbc89;
+  --main-blue: #68c0bc;
+}
+
+/* h1#score {
+  font-size: 4rem;
+  text-shadow: none;
+  font-family: "Quicksand", sans-serif;
+  padding: 0.5rem 0 0 1.4rem;
+  font-weight: 400;
+} */
+
 .choice-container {
   display: flex;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   width: 100%;
   font-size: 1.8rem;
-  border: 0.1rem solid lightskyblue;
-  background-color: #ffffff;
+  border: 0.1rem solid var(--main-green);
+  background-color: var(--secondary-light-bg);
 }
 
 .choice-container:hover {
   cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  box-shadow: 0 0.2rem 0.4rem 0 var(--main-green);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
 
 .choice-prefix {
   padding: 1.5rem 2.5rem;
-  background-color: lightskyblue;
+  background-color: var(--main-green);
   color: #ffffff;
 }
 
@@ -26,21 +43,24 @@
 }
 
 .correct {
-  background-color: green;
+  background-color: var(--main-green);
 }
 
 .incorrect {
-  background-color: red;
+  background-color: rgb(226, 80, 64);
 }
 
 #hud {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
 }
 
 .hud-prefix {
   text-align: center;
   font-size: 2rem;
+  color: var(--secondary-light-bg);
 }
 
 .hud-main-text {
@@ -50,12 +70,12 @@
 #progressBar {
   width: 20rem;
   height: 4rem;
-  border: 0.3rem solid #56a5eb;
+  border: 0.4rem solid var(--main-green);
   margin-top: 1.5rem;
 }
 
 #progressBarFull {
   height: 3.4rem;
-  background-color: #56a5eb;
+  background-color: var(--main-green);
   width: 0%;
 }
