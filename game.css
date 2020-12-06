@@ -19,7 +19,7 @@
   display: flex;
   margin-bottom: 1rem;
   width: 100%;
-  font-size: 1.8rem;
+  font-size: 2rem;
   border: 0.1rem solid var(--main-green);
   background-color: var(--secondary-light-bg);
 }
@@ -78,4 +78,22 @@
   height: 3.4rem;
   background-color: var(--main-green);
   width: 0%;
+}
+
+/************************** media queries *******************************/
+
+@media (max-width: 568px) {
+  .choice-container {
+    font-size: 1.8rem;
+  }
+  .choice-text {
+    font-size: 1.5rem;
+    padding: 1.8rem 0 1.8rem 1rem;
+  }
+  #hud {
+    margin-bottom: 3rem;
+  }
+  .hud-prefix {
+    font-size: 1.5rem;
+  }
 }

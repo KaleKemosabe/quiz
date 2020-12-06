@@ -20,7 +20,6 @@ body {
   /* background: url("/assets/simpe-lappi.png") no-repeat top center/cover; */
   background: url("https://cdn.pixabay.com/photo/2020/05/21/15/47/beer-5201403_960_720.jpg")
     no-repeat center center/cover;
-  max-height: 100vh;
 }
 
 h1,
@@ -164,7 +163,7 @@ form {
 
 input {
   margin-bottom: 5rem;
-  width: 20rem;
+  width: 25rem;
   padding: 1.5rem;
   border: none;
   border-radius: 5px;
@@ -175,18 +174,87 @@ input::placeholder {
   color: var(--main-dark);
 }
 
-/* media queries */
+/************************** media queries *******************************/
+
+/* home screen */
+@media (max-width: 1024px) {
+  #home.flex-center {
+    padding: 15rem 2rem;
+    background-color: #333333cd;
+    box-shadow: 0 0 5rem var(--secondary-light-bg);
+  }
+  h1 {
+    font-size: 8rem;
+    letter-spacing: 0.5rem;
+    text-shadow: 5px 5px 0 var(--main-dark);
+  }
+  h2 {
+    font-size: 3.2rem;
+    margin-bottom: 3rem;
+    font-weight: 400;
+  }
+  #game.justify-center {
+    background-color: #333333cd;
+  }
+  #finalScreen #end.flex-center {
+    background-color: #333333cd;
+    padding: 5rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #game.justify-center {
+    background-color: #333333cd;
+    padding: 8rem;
+  }
+  h2 {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 568px) {
+  #game.justify-center {
+    padding: 5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #home.flex-center {
+    background-color: #333333cd;
+    box-shadow: 0 0 5rem var(--secondary-light-bg);
+    padding: 15rem 2rem;
+  }
+  h1 {
+    font-size: 6rem;
+    letter-spacing: 0.5rem;
+    text-shadow: 5px 5px 0 var(--main-dark);
+  }
+}
+
+@media (max-width: 420px) {
+  h1 {
+    font-size: 6rem;
+    letter-spacing: 0.2rem;
+    text-shadow: 5px 5px 0 var(--main-dark);
+  }
+  #game.justify-center {
+    padding: 2rem;
+  }
+}
 
 @media (max-width: 375px) {
   #home.flex-center {
     background-color: #333333cd;
     box-shadow: 0 0 5rem var(--secondary-light-bg);
-    padding: 10rem 2rem;
-    border-radius: 5px;
+    padding: 10rem 1rem;
   }
   h1 {
     font-size: 5rem;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0;
     text-shadow: 2px 2px 0 var(--main-dark);
   }
 }
