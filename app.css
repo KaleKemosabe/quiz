@@ -20,6 +20,7 @@ body {
   /* background: url("/assets/simpe-lappi.png") no-repeat top center/cover; */
   background: url("https://cdn.pixabay.com/photo/2020/05/21/15/47/beer-5201403_960_720.jpg")
     no-repeat center center/cover;
+  max-height: 100vh;
 }
 
 h1,
@@ -226,7 +227,11 @@ input::placeholder {
   #home.flex-center {
     background-color: #333333cd;
     box-shadow: 0 0 5rem var(--secondary-light-bg);
-    padding: 15rem 2rem;
+    padding: 5rem 2rem;
+  }
+  #end.justify-center {
+    background-color: #333333cd;
+    padding: 2rem;
   }
   h1 {
     font-size: 6rem;
@@ -250,7 +255,6 @@ input::placeholder {
   #home.flex-center {
     background-color: #333333cd;
     box-shadow: 0 0 5rem var(--secondary-light-bg);
-    padding: 10rem 1rem;
   }
   h1 {
     font-size: 5rem;
