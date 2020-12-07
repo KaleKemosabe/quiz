@@ -96,12 +96,14 @@ h1#finalScore {
   background-color: #333333dd;
   box-shadow: 0 0 5rem var(--secondary-light-bg);
   padding: 10rem;
+  border-radius: 5px;
 }
 
 #end.justify-center {
   background-color: #333333dd;
   box-shadow: 0 0 5rem var(--secondary-light-bg);
   padding: 10rem;
+  border-radius: 5px;
 }
 
 .flex-column {
@@ -217,6 +219,9 @@ input::placeholder {
 @media (max-width: 568px) {
   #game.justify-center {
     padding: 5rem;
+  }
+  #finalScreen #end.flex-center {
+    padding: 2rem;
   }
   h2 {
     font-size: 2rem;
