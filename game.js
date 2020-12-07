@@ -25,7 +25,7 @@ fetch('questions.json')
 
 //CONSTANTS
 const CORRECT_BONUS = 1;
-const MAX_QUESTIONS = 12;
+const MAX_QUESTIONS = 15;
 
 startGame = () => {
     questionCounter = 0;

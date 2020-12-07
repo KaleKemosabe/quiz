@@ -103,5 +103,29 @@
         "choice3": "2009",
         "choice4": "1991",
         "answer": 2
+    },
+    {
+        "question": "Europarlamentaarikko ja äärikonservatiivina tunnettu Jozsef Szajer jäi kiinni osallistuttuaan homobaarin orgioihin Brysselissä joulukuussa 2020. Mitä huumetta hänen hallustaan löytyi?",
+        "choice1": "kannabista",
+        "choice2": "ekstaasia",
+        "choice3": "kokaiinia",
+        "choice4": "taika tryffeleitä",
+        "answer": 2
+    },
+    {
+        "question": "Helsinki-Vantaa on Suomen vilkkain lentoasema, mutta mikä on toiseksi kiireisin lentokenttä matkustajamäärässä mitattuna (2019)?",
+        "choice1": "Rovaniemi",
+        "choice2": "Turku",
+        "choice3": "Tampere",
+        "choice4": "Oulu",
+        "answer": 4
+    },
+    {
+        "question": "Mitä tarkoittaa 'Kaljama'?",
+        "choice1": "Turvonnutta vatsaa",
+        "choice2": "Kosteaa illanviettoa",
+        "choice3": "Liukasta maata",
+        "choice4": "Vihreää nurmikkoa",
+        "answer": 3
     }
 ]
