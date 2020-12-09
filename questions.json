@@ -104,12 +104,12 @@
         "answer": 2
     },
     {
-        "question": "Europarlamentaarikko ja äärikonservatiivina tunnettu Jozsef Szajer jäi kiinni osallistuttuaan homobaarin orgioihin Brysselissä joulukuussa 2020. Mitä huumetta hänen hallustaan löytyi?",
-        "choice1": "kannabista",
-        "choice2": "ekstaasia",
-        "choice3": "kokaiinia",
-        "choice4": "taika tryffeleitä",
-        "answer": 2
+        "question": "Pyhän Patrickin päivänä juhlijat pukeutuvat yleensä vihreään, mutta minkä väriseen asuun pukeutumisen uskottiin vanhastaan tuovan epäonnea Irlannissa?",
+        "choice1": "siniseen",
+        "choice2": "keltaiseen",
+        "choice3": "vihreään",
+        "choice4": "punaiseen",
+        "answer": 3
     },
     {
         "question": "Helsinki-Vantaa on Suomen vilkkain lentoasema, mutta mikä on toiseksi kiireisin lentokenttä matkustajamäärässä mitattuna (2019)?",

@@ -33,22 +33,22 @@ h4 {
 #home.flex-center {
   background-color: #333333b3;
   box-shadow: 0 0 5rem var(--secondary-light-bg);
-  padding: 15rem 50rem;
-  border-radius: 5px;
+  padding: 10rem 30rem;
+  border-radius: 10px;
 }
 
 h1 {
   font-size: 10rem;
   text-align: center;
   font-family: "Permanent Marker", cursive;
-  letter-spacing: 2rem;
+  letter-spacing: 1rem;
   color: var(--secondary-light-bg);
   text-shadow: 10px 10px 0 var(--main-dark);
   margin-bottom: 5rem;
 }
 
 h2 {
-  font-size: 4.2rem;
+  font-size: 4rem;
   margin-bottom: 4rem;
   color: var(--secondary-light-bg);
   font-weight: 500;
@@ -62,7 +62,7 @@ h3 {
 #finalScreen #end.flex-center {
   background-color: #333333b3;
   box-shadow: 0 0 5rem var(--secondary-light-bg);
-  padding: 10rem 50rem;
+  padding: 10rem;
   border-radius: 5px;
 }
 
@@ -95,7 +95,7 @@ h1#finalScore {
 #game.justify-center {
   background-color: #333333dd;
   box-shadow: 0 0 5rem var(--secondary-light-bg);
-  padding: 10rem;
+  padding: 5rem;
   border-radius: 5px;
 }
 
@@ -192,7 +192,7 @@ input::placeholder {
     text-shadow: 5px 5px 0 var(--main-dark);
   }
   h2 {
-    font-size: 3.2rem;
+    font-size: 3rem;
     margin-bottom: 3rem;
     font-weight: 400;
   }
@@ -205,26 +205,12 @@ input::placeholder {
   }
 }
 
-@media (max-width: 768px) {
-  #game.justify-center {
-    background-color: #333333cd;
-    padding: 8rem;
-  }
-  h2 {
-    font-size: 3rem;
-    font-weight: 400;
-  }
-}
-
 @media (max-width: 568px) {
-  #game.justify-center {
-    padding: 5rem;
-  }
   #finalScreen #end.flex-center {
     padding: 2rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
